@@ -22,13 +22,20 @@
     <link href="css/grayscale.min.css" rel="stylesheet">
 
   </head>
-
+<style>
+  .shadow{
+    text-shadow: 2px 2px 8px grey;
+  }
+  .nav_text{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+</style>
   <body id="page-top">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Back To The Top</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Aria</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -36,13 +43,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#about"><span class="nav_text">About</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+              <a class="nav-link js-scroll-trigger" href="#projects"><span class="nav_text">Projects</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="#signup"><span class="nav_text">Contact</span></a>
             </li>
           </ul>
         </div>
@@ -53,7 +60,7 @@
     <header class="masthead">
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
-          <h1 class="mx-auto my-0 text-uppercase">Aria Samandi</h1>
+          <h1 class="mx-auto my-0 text-uppercase shadow">Aria Samandi</h1>
           <h2 class="text-white-50 mx-auto mt-2 mb-5">This is my Portfolio website</h2>
           <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
         </div>
@@ -82,72 +89,49 @@
         <!-- Featured Project Row -->
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
           <div class="col-xl-8 col-lg-7">
-            <a href="/caloriecounter"><img class="img-fluid mb-3 mb-lg-0" src="img/CalorieCounter.png" alt=""></a>
+            <a href="/caloriecounter"><img class="img-fluid mb-3 mb-lg-0" src="img/Calorie_counter_dashboard.png" alt=""></a>
           </div>
           <div class="col-xl-4 col-lg-5">
             <div class="featured-text text-center text-lg-left">
               <h4>Calorie Counter</h4>
-              <p class="text-black-50 mb-0">This is my second and most recent project! I used MongoDB, Express, Angular, Nodejs, and Bootstrap, CSS3, HTML5</p>
+              <p class="text-black-50 mb-0">This is my second and most recent project! I used MongoDB, Express, Angular, Nodejs, and Bootstrap, CSS3, HTML5</p><br>
+              <a href="https://github.com/ariasamandi/MEAN_PROJECT">View Code</a>
             </div>
           </div>
         </div>
 
-        <!-- Project One Row -->
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
-            <a href="/michael_choistagram"><img class="img-fluid" src="img/michaelchoistagram.png" alt=""></a>
-          </div>
-          <div class="col-lg-6">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 class="text-white">Michael Choistagram</h4>
-                  <p class="mb-0 text-white-50">This is my first project I made. Technologies include: Python, Django, MySQL, CSS3, HTML5, Bootstap</p>
-                  <hr class="d-none d-lg-block mb-0 ml-0">
-                </div>
+         <!-- Featured Project Row -->
+         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+            <div class="col-xl-8 col-lg-7">
+              <a href="/caloriecounter"><img class="img-fluid mb-3 mb-lg-0" src="img/imgg.png" alt=""></a>
+            </div>
+            <div class="col-xl-4 col-lg-5">
+              <div class="featured-text text-center text-lg-left">
+                <h4>Michael Choistagram</h4>
+                <p class="text-black-50 mb-0">This is my first project! I used Python, Django, MYSQL, Stripe, Bootstrap, CSS3, and HTML5</p><br>
+                <a href="https://github.com/ariasamandi/michaelchoistragram">View Code</a> | <a href="http://michaelchoistragram.com">View Site</a>
               </div>
             </div>
           </div>
-        </div>
-
-        <!-- Project Two Row -->
-        <div class="row justify-content-center no-gutters">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
-          </div>
-          <div class="col-lg-6 order-lg-first">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 class="text-white">Coming Soon</h4>
-                  <p class="mb-0 text-white-50">
-                  <hr class="d-none d-lg-block mb-0 mr-0">
-                </div>
+          <!-- Featured Project Row -->
+         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+            <div class="col-xl-8 col-lg-7">
+              <a href="/caloriecounter"><img class="img-fluid mb-3 mb-lg-0" src="img/demo-image-01.jpg" alt=""></a>
+            </div>
+            <div class="col-xl-4 col-lg-5">
+              <div class="featured-text text-center text-lg-left">
+                <h4>Coming Soon</h4>
+                <p class="text-black-50 mb-0">
               </div>
             </div>
           </div>
-        </div>
 
       </div>
     </section>
 
     <!-- Signup Section -->
     <section id="signup" class="signup-section">
-      <!-- <div class="container"> -->
-         <!-- <div class="row">
-          <div class="col-md-10 col-lg-8 mx-auto text-center">
 
-            <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-            <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-
-            <form class="form-inline d-flex">
-              <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-              <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
-            </form>
-
-          </div> 
-        </div> -->
-      <!-- </div> -->
     </section>
 
     <!-- Contact Section -->
@@ -191,14 +175,11 @@
             </div>
           </div>
         </div>
-
+        <!-- Social media links -->
         <div class="social d-flex justify-content-center">
           <a href="https://www.linkedin.com/in/aria-samandi-91799a159/" class="mx-2">
             <i class="fab fa-linkedin"></i>
           </a>
-          <!-- <a href="#" class="mx-2">
-            <i class="fab fa-facebook-f"></i>
-          </a> -->
           <a href="https://github.com/ariasamandi" class="mx-2">
             <i class="fab fa-github"></i>
           </a>
