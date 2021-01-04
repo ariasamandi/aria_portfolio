@@ -12,6 +12,9 @@ app.get('/caloriecounter', (req, res)=>{
 app.get('/michael_choistagram', (req, res)=>{
     res.sendFile(path.join(__dirname + '/michael_choistagram.html'))
 })
+app.get('/aaroncarey', (req, res)=>{
+    res.sendFile(path.join(__dirname + '/aaroncarey.html'))
+})
 app.listen(8000, ()=>{
     console.log("Listen on 8000")
 })
